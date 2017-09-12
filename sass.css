@@ -45,7 +45,7 @@
   opacity: 1;
 }
 
-body.home .site-main article:first-of-type {
+body.home .site-main article .entry-title {
   display: none;
 }
 
