@@ -1,2 +1,62 @@
-.clearfix:after,.clearfix:before{content:"";display:table}.clearfix:after{clear:both}body.has-header-image .site-title,body.has-header-image .site-title a,body.has-header-video .site-title,body.has-header-video .site-title a{color:#c0ffee}
+.clearfix:before {
+  content: '';
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.site-title a {
+  background: url("https://2017.vegas.wordcamp.org/files/2017/09/WordCamp-Las-Vegas-marquee-logo.png") no-repeat center center;
+  background-size: contain;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  transition: none;
+  display: block;
+  width: 100%;
+  max-width: 649px;
+  height: 300px;
+  border: 40px solid transparent;
+}
+
+.has-header-image.twentyseventeen-front-page .site-branding, .has-header-video.twentyseventeen-front-page .site-branding, .has-header-image.home.blog .site-branding, .has-header-video.home.blog .site-branding {
+  position: absolute;
+  left: 50%;
+  bottom: auto;
+  top: calc( 50% - 72px);
+  width: auto;
+  transform: translate3d(-50%, -50%, 0);
+  margin-bottom: 0 !important;
+  padding: 0;
+  height: auto;
+}
+
+.has-header-image.twentyseventeen-front-page .site-branding .wrap, .has-header-video.twentyseventeen-front-page .site-branding .wrap, .has-header-image.home.blog .site-branding .wrap, .has-header-video.home.blog .site-branding .wrap {
+  padding: 0;
+}
+
+.site-branding a:hover,
+.site-branding a:focus {
+  opacity: 1;
+}
+
+body.home .site-main article:first-of-type {
+  display: none;
+}
+
+.wp-custom-header:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  background-color: transparent;
+}
+
 /*# sourceMappingURL=sass.css.map */
