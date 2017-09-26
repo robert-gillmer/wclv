@@ -86,6 +86,7 @@ body.home .site-main article .entry-title {
 .main-navigation li.wclv-tickets {
   background: transparent url("https://2017.vegas.wordcamp.org/files/2017/09/ticket-menu-bg.png") repeat-x top left;
   border: 3px solid #F15D59;
+  float: right;
 }
 
 .main-navigation li.wclv-tickets:before {
