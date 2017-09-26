@@ -83,4 +83,38 @@ body.home .site-main article .entry-title {
   background-color: transparent;
 }
 
+.main-navigation li.wclv-tickets {
+  background: transparent url("https://2017.vegas.wordcamp.org/files/2017/09/ticket-menu-bg.png") repeat-x top left;
+  border: 3px solid #F15D59;
+}
+
+.main-navigation li.wclv-tickets:before {
+  content: '';
+  border: 3px solid #B92025;
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  bottom: -6px;
+  left: -6px;
+  background: none;
+  display: block;
+}
+
+.main-navigation li.wclv-tickets:after {
+  content: '';
+  border: 2px solid #F15D59;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  background: none;
+  display: block;
+  border-radius: 5px;
+}
+
+.main-navigation li.wclv-tickets a {
+  padding: calc( 1em - 7px) calc( 1.25em - 7px);
+}
+
 /*# sourceMappingURL=sass.css.map */
