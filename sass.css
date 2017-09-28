@@ -99,6 +99,7 @@ body.home .site-main article .entry-title {
   left: -6px;
   background: none;
   display: block;
+  z-index: -1;
 }
 
 .main-navigation li.wclv-tickets:after {
@@ -111,6 +112,7 @@ body.home .site-main article .entry-title {
   left: -8px;
   background: none;
   display: block;
+  z-index: -1;
   border-radius: 5px;
 }
 
