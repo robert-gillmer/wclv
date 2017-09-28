@@ -120,4 +120,43 @@ body.home .site-main article .entry-title {
   padding: calc( 1em - 7px) calc( 1.25em - 7px);
 }
 
+.wcorg-speaker {
+  background: transparent url("https://2017.vegas.wordcamp.org/files/2017/09/grid.png") repeat top left;
+  border: 3px solid #F15D59;
+  float: right;
+  position: relative;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.wcorg-speaker img {
+  float: left;
+  margin-right: 20px;
+}
+
+.wcorg-speaker:before {
+  content: '';
+  border: 3px solid #B92025;
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  bottom: -6px;
+  left: -6px;
+  background: none;
+  display: block;
+}
+
+.wcorg-speaker:after {
+  content: '';
+  border: 2px solid #F15D59;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  background: none;
+  display: block;
+  border-radius: 5px;
+}
+
 /*# sourceMappingURL=sass.css.map */
