@@ -159,4 +159,9 @@ body.home .site-main article .entry-title {
   border-radius: 5px;
 }
 
+.wcorg-speaker .wcorg-speaker-description {
+  position: relative;
+  z-index: 2;
+}
+
 /*# sourceMappingURL=sass.css.map */
