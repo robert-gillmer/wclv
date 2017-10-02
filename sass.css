@@ -164,4 +164,63 @@ body.home .site-main article .entry-title {
   z-index: 2;
 }
 
+.page.page-one-column:not(.twentyseventeen-front-page) #primary {
+  max-width: 904px;
+}
+
+.wcpt-schedule {
+  border: 3px solid #B92025;
+  padding: 15px;
+}
+
+.entry-content .wcpt-schedule a {
+  box-shadow: none;
+  text-decoration: none;
+}
+
+.wcpt-schedule th,
+.wcpt-schedule td {
+  border: 1px solid #eee;
+  padding: 0.75em;
+  vertical-align: top;
+}
+
+.wcpt-schedule tr th {
+  text-align: center;
+}
+
+.wcpt-schedule tbody tr:nth-child(odd) {
+  background-color: #eee;
+}
+
+.wcpt-schedule tbody tr.global-session {
+  background-color: #ccc;
+  text-align: center;
+}
+
+.wcpt-schedule .wcpt-session-speakers {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 700px) {
+  .wcpt-schedule {
+    border: none;
+  }
+  .wcpt-schedule thead {
+    display: none;
+  }
+  .wcpt-schedule tbody, .wcpt-schedule tr, .wcpt-schedule th, .wcpt-schedule td {
+    display: block;
+  }
+  .wcpt-schedule tr {
+    border: 3px solid #B92025;
+    margin-bottom: 16px;
+  }
+  .wcpt-schedule tbody tr:nth-child(odd) {
+    background-color: #fff;
+  }
+}
+
 /*# sourceMappingURL=sass.css.map */
