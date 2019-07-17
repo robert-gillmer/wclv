@@ -448,10 +448,6 @@ body {
   font-size: 18px;
 }
 
-.site-header {
-  margin: 10px auto;
-}
-
 .site-header:before {
   content: '';
   display: table;
@@ -507,7 +503,7 @@ body.home.admin-bar .page-navigation-container .menu-main-container {
 .page-navigation-container .menu-main-container ul > li {
   float: none;
   display: inline-block;
-  padding: 20px 30px;
+  padding: 30px;
 }
 
 .page-navigation-container .menu-main-container ul > li > a {
@@ -524,10 +520,14 @@ body.home.admin-bar .page-navigation-container .menu-main-container {
 
 .page-navigation-container .menu-main-container ul > li .sub-menu {
   background: #fff;
-  top: 83px;
+  top: 90px;
 }
 
-.page-navigation-container .menu-main-container ul > li .sub-menu a {
+.page-navigation-container .menu-main-container ul > li .sub-menu li {
+  padding: 20px 30px;
+}
+
+.page-navigation-container .menu-main-container ul > li .sub-menu li a {
   width: auto;
   white-space: nowrap;
 }
@@ -543,8 +543,7 @@ body.home.admin-bar .page-navigation-container .menu-main-container {
   text-indent: -9999px;
   width: 180px;
   height: 73px;
-  margin-left: 100px;
-  margin-right: -280px;
+  margin: 10px -280px 0 100px;
   float: left;
 }
 
