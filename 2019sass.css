@@ -553,6 +553,10 @@ body.home.admin-bar .page-navigation-container .menu-main-container {
   height: 73px;
 }
 
+body.home .page-navigation-container .menu-main-container ul li .sub-menu {
+  top: 70px;
+}
+
 .site-footer {
   background: #0c3c5d;
   padding-top: 25px;
@@ -685,6 +689,49 @@ body.home .site-header .custom-header .site-branding .site-description {
 
 body.home .site-content .entry-header {
   display: none;
+}
+
+body.home.blog article .entry-header {
+  display: block;
+  background: none;
+  height: auto;
+}
+
+body.home.blog article .entry-header h2 {
+  font-family: "Sedgwick Ave Display", sans-serif;
+  color: #d9b310;
+  font-size: 42px;
+  text-shadow: 3px 3px 3px #000, 3px 3px 3px #000, 3px 3px 3px #000;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  max-width: 1200px;
+  text-align: center;
+  padding-top: 12px;
+  margin: 0 auto;
+  line-height: 88px;
+}
+
+body.home.blog article .entry-header h2 a {
+  color: #d9b310;
+  text-decoration: none;
+}
+
+body.home.blog .entry-meta {
+  max-width: 1200px;
+  padding: 0 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body.home.blog .entry-footer {
+  max-width: 1200px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+body.home.blog .entry-footer .edit-link {
+  display: block;
+  margin-top: 10px;
 }
 
 .entry-header {
