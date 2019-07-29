@@ -693,6 +693,17 @@ body.admin-bar .page-navigation-container.toggled-on .menu-main-container {
   }
 }
 
+@media (max-width: 600px) {
+  .site-footer .footer-widgets-block .widget {
+    float: none;
+    margin: 0 auto !important;
+    width: 75%;
+  }
+  .site-footer .footer-widgets-block .widget:nth-of-type(3n), .site-footer .footer-widgets-block .widget:nth-of-type(2n) {
+    margin: 0 auto;
+  }
+}
+
 .site-footer .site-info {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url("https://2019.vegas.wordcamp.org/files/2019/07/wall-background-small.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://2019.vegas.wordcamp.org/files/2019/07/wall-background-small.jpg");
@@ -700,7 +711,7 @@ body.admin-bar .page-navigation-container.toggled-on .menu-main-container {
   background-position: center center;
   background-size: cover;
   text-align: center;
-  padding: 25px 0;
+  padding: 25px 50px;
 }
 
 .site-footer .site-info a {
@@ -826,9 +837,10 @@ body.home.blog .entry-footer .edit-link {
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://2019.vegas.wordcamp.org/files/2019/07/wall-background-small.jpg");
   background-repeat: no-repeat;
   background-position: top left;
-  height: 100px;
+  min-height: 100px;
   background-size: cover;
   margin-bottom: 20px;
+  padding: 12px 50px 0;
 }
 
 .entry-header h1 {
@@ -840,7 +852,6 @@ body.home.blog .entry-footer .edit-link {
   text-transform: uppercase;
   max-width: 1200px;
   text-align: center;
-  padding-top: 12px;
   margin: 0 auto;
   line-height: 88px;
   color: #fff;
